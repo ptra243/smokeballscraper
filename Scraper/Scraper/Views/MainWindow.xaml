@@ -11,7 +11,12 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <local:Search Grid.Row="0"></local:Search>
-        <local:SearchResult Grid.Row="1"></local:SearchResult>
+        <StackPanel Grid.Row="0">
+            <TextBlock Style="{StaticResource Header1}" Text="SEO" />
+            <Border Background="LightYellow" BorderThickness="1" Margin="5"  BorderBrush="DarkGray">
+                <TextBlock Style="{StaticResource InfoBox}" Text="Enter a search term and a url to see how many times the url is returned in the first 100 google searches" />
+            </Border>
+        </StackPanel>
+        <local:Search Grid.Row="1"></local:Search>
     </Grid>
 </Window>

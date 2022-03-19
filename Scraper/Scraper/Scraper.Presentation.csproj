@@ -23,6 +23,7 @@
   <ItemGroup>
     <Folder Include="Commands\" />
     <Folder Include="Converters\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

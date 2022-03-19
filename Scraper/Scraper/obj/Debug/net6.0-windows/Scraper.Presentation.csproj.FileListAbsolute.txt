@@ -42,8 +42,6 @@ C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper\obj\Debug\net6.0-wi
 C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper\obj\Debug\net6.0-windows\Views\MainWindow.baml
 C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper\obj\Debug\net6.0-windows\Styles\MainTheme.baml
 C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper\obj\Debug\net6.0-windows\Views\Search\Search.g.cs
-C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper\obj\Debug\net6.0-windows\Views\Search\SearchResult.g.cs
 C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper\obj\Debug\net6.0-windows\App.baml
 C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper\obj\Debug\net6.0-windows\Views\Search\Search.baml
-C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper\obj\Debug\net6.0-windows\Views\Search\SearchResult.baml

@@ -16,12 +16,15 @@
             <RowDefinition Height="40"></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
         </Grid.RowDefinitions>
+        <!--Search Term-->
         <TextBlock x:Name="SearchTermLabel" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Search Term" VerticalAlignment="Top"/>
-        <TextBox Name="SearchTextBox" Grid.Row="0" Grid.Column="1" Text="{Binding SearchTerm.SearchTerm, Mode=TwoWay}" />
+        <TextBox Name="SearchTextBox" Grid.Row="0" Grid.Column="1" Text="{Binding SearchTerm, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <!--SearchURL-->
         <TextBlock x:Name="SearchURLLabel" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Search Term" VerticalAlignment="Top"/>
-        <TextBox Name="SearchURLTextBox" Grid.Row="1" Grid.Column="1" Text="{Binding SearchTerm.URL, Mode=TwoWay}" />
+        <TextBox Name="SearchURLTextBox" Grid.Row="1" Grid.Column="1" Text="{Binding SearchURL, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
         <Grid/>
-        <Button x:Name="button" Grid.Column="1" Grid.Row="2" Content="Do Search" HorizontalAlignment="Right"  VerticalAlignment="Top" />
-        
+        <Border CornerRadius="8,8,3,3" BorderThickness="1" Grid.Column="1" Grid.Row="2" >
+            <Button x:Name="button" Content="Do Search" HorizontalAlignment="Right"  VerticalAlignment="Top" />
+        </Border>
     </Grid>
 </UserControl>
