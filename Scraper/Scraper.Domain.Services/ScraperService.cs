@@ -13,6 +13,23 @@ namespace Scraper.Domain.Services
         }
         public async Task<int> SearchURLForSearchTerm(string searchterm, string url)
         {
+            //Validation
+            bool isurl = Uri.IsWellFormedUriString(!url.StartsWith("http")? "https://" + url: url, UriKind.Absolute);
+            if (!isurl)
+            {
+                throw new ArgumentException("A valid url is required");
+            }
+
+            if (string.IsNullOrWhiteSpace(searchterm))
+            {
+                throw new ArgumentException("Search Term is required");
+            }
+            if (string.IsNullOrWhiteSpace(url))
+            {
+                throw new ArgumentException("Search URL is required");
+            }
+
+            //
             CancellationTokenSource cancellationToken = new CancellationTokenSource();
             HttpClient httpClient = new HttpClient();
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Scraper.Presentation.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,8 +21,11 @@ namespace Scraper
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public SearchViewModel SearchViewModel { get; set; }
+        public MainWindow(SearchViewModel model)
         {
+            SearchViewModel = model;
+            this.DataContext = SearchViewModel;
             InitializeComponent();
         }
     }

@@ -15,6 +15,7 @@
             <RowDefinition Height="40"></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <!--Search Term-->
         <TextBlock x:Name="SearchTermLabel" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Search Term" VerticalAlignment="Top"/>
@@ -24,7 +25,11 @@
         <TextBox Name="SearchURLTextBox" Grid.Row="1" Grid.Column="1" Text="{Binding SearchURL, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
         <Grid/>
         <Border CornerRadius="8,8,3,3" BorderThickness="1" Grid.Column="1" Grid.Row="2" >
-            <Button x:Name="button" Content="Do Search" HorizontalAlignment="Right"  VerticalAlignment="Top" />
+            <Button x:Name="button" Command="{Binding SEOSearch}" Content="Do Search" HorizontalAlignment="Right"  VerticalAlignment="Top" />
+        </Border>
+        <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Text="{Binding Result, UpdateSourceTrigger=PropertyChanged}" />
+        <Border Grid.Row="4" Grid.ColumnSpan="2" Background="WhiteSmoke" BorderThickness="1" Margin="5"  BorderBrush="DarkGray">
+            <TextBlock Text="{Binding ResultMessage}"/>
         </Border>
     </Grid>
 </UserControl>

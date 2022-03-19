@@ -1,4 +1,5 @@
-﻿using Scraper.Presentation.ViewModels;
+﻿using Scraper.Domain.Interfaces;
+using Scraper.Presentation.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace Scraper.Presentation.Views.Search
         public Search()
         {
             InitializeComponent();
-            DataContext = new SearchTermViewModel();
+            //DataContext = new SearchViewModel();
         }
     }
 }

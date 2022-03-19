@@ -8,6 +8,11 @@ namespace Scraper.Presentation.ViewModels
 {
     public class MainViewViewModel : ViewModelBase
     {
+        public SearchViewModel SearchViewModel { get; set; }
+        public MainViewViewModel(SearchViewModel model)
+        {
+            SearchViewModel = model;
+        }
 
     }
 }

@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Scraper.Presentation.Views.Search"
+        xmlns:local="clr-namespace:Scraper.Presentation.Views.Search" xmlns:viewmodels="clr-namespace:Scraper.Presentation.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainViewViewModel}"
         mc:Ignorable="d"
         Title="SearchResult" Height="450" Width="800">
     <Grid>
@@ -17,6 +17,6 @@
                 <TextBlock Style="{StaticResource InfoBox}" Text="Enter a search term and a url to see how many times the url is returned in the first 100 google searches" />
             </Border>
         </StackPanel>
-        <local:Search Grid.Row="1"></local:Search>
+        <ContentControl Grid.Row="1" Content="{Binding }"/>
     </Grid>
 </Window>

@@ -3,6 +3,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Scraper.Domain.Interfaces;
 using Scraper.Domain.Services;
+using Scraper.Presentation.ViewModels;
 using Serilog;
 using System;
 using System.Windows;
@@ -35,6 +36,8 @@ namespace Scraper
         private void DoConfigure(IServiceCollection services)
         {
             services.AddSingleton<MainWindow>();
+            services.AddScoped<MainViewViewModel>();
+            services.AddScoped<SearchViewModel>();
             services.AddScoped<IScraperService, ScraperService>();
             //Serilog.Logger
         }
