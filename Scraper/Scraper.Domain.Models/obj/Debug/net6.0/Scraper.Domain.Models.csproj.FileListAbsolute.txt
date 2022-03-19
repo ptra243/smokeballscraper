@@ -1,0 +1,12 @@
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\bin\Debug\net6.0\Scraper.Domain.Models.deps.json
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\bin\Debug\net6.0\Scraper.Domain.Models.dll
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\bin\Debug\net6.0\Scraper.Domain.Models.pdb
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\obj\Debug\net6.0\Scraper.Domain.Models.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\obj\Debug\net6.0\Scraper.Domain.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\obj\Debug\net6.0\Scraper.Domain.Models.AssemblyInfoInputs.cache
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\obj\Debug\net6.0\Scraper.Domain.Models.AssemblyInfo.cs
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\obj\Debug\net6.0\Scraper.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\obj\Debug\net6.0\Scraper.Domain.Models.dll
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\obj\Debug\net6.0\refint\Scraper.Domain.Models.dll
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\obj\Debug\net6.0\Scraper.Domain.Models.pdb
+C:\Users\Peter\source\repos\SmokeballScraper\Scraper\Scraper.Domain.Models\obj\Debug\net6.0\ref\Scraper.Domain.Models.dll

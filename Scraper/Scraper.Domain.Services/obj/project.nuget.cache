@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qM+Zivb4ZETpP9zLK9LqUKER0UPC7aAjc6NrqGj1gwo+/bxNphF654EBTfHWtfIifBLuiJ7jZ++MkkwshtrnEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Peter\\source\\repos\\SmokeballScraper\\Scraper\\Scraper.Domain.Services\\Scraper.Domain.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Peter\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
